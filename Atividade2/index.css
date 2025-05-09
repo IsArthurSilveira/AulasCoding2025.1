@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'FonteSpiderMan';
+    src: url('./fonts/SpiderMan.ttf') format('truetype');
+}
+
+body {
+    background-color: #700000;
+    background-image: url('./images/BackGround.gif');
+    background-size: cover;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    display: inline-block;
+    width: 240px;
+    height: 80px; 
+    background: rgba(255, 0, 0, 0.30);
+    border-radius: 15px;
+    border: 5px black solid;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 40px;
+    font-family: 'FonteSpiderMan', Arial, sans-serif; /* Fonte personalizada */
+    color: white; 
+    text-align: center;
+    line-height: 90px; /* Centraliza o texto verticalmente */
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+.btn:hover {
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Organiza os elementos verticalmente */
+    align-items: center;
+    gap: 20px; /* Espaçamento entre o iframe e os botões */
+    width: 100%;
+    height: 100%;
+    margin-top: 60px;
+}
+
+#contentFrame {
+    width: 1200px; /* Largura do iframe */
+    height: 470px; /* Altura do iframe */
+    border: 5px solid black; /* Borda preta de 5px */
+    border-radius: 40px; /* Bordas arredondadas */
+    background: rgba(140, 21, 3, 0.8); /* Cor de fundo com transparência */
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row; /* Organiza os botões horizontalmente */
+    justify-content: center;
+    gap: 20px; /* Espaçamento horizontal entre os links */
+}
