@@ -3,19 +3,146 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curriculo Pessoal</title>
+    <title>Currículo</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div class="container">
-            <iframe id="contentFrame" src="./html/inicio.html" name="Iframe"></iframe>
-        <div class="navigation">
-            <a class="btn" href="./html/formacao.html" target="Iframe" title="Formação">FORMACAO</a>
-            <a class="btn" href="./html/habilidades.html" target="Iframe" title="Habilidades">HABILIDADES</a>
-            <a class="btn" href="./html/projetos.html" target="Iframe" title="Projetos">PROJETOS</a>
-            <a class="btn" href="./html/endereco.html" target="Iframe" title="Endereços">EXPERIENCIA</a>
+    <div class="header">CURRÍCULO</div>
+    <div class="sobre-mim">
+        <div class="sobre-header">
+            <h1>SOBRE MIM</h1>
+            <img src="./images/Enlarge.svg" alt="Mais">
         </div>
-    <div>
-    <script src="index.js"></script>
-</body>
+        <div class="sobre-mim-content">
+            <div class="sobre-mim-body">
+                <div class="sobre-mim-text">
+                    <h1>ARTHUR SILVEIRA</h1>
+                    <p>Agente de Inovação</p>
+                </div>
+                <div class="Infos">
+                    <img src="./images/Endereco.svg" alt="Ícone Endereço" class="info-icon">
+                    <p class="info-text">Recife, Pernambuco</p>
+                </div>
+                <div class="Infos">
+                    <img src="./images/Email.svg" alt="Ícone Email" class="info-icon">
+                    <a class="info-text" href="mailto:thursilveiraa@gmail.com">Thursilveiraa@gmail.com</a>
+                </div>
+            </div>
+            <div class="lado2">
+                <img src="./images/Arthur.png" alt="Arthur Silveira" class="perfil">
+            </div>
+        </div>
+    </div>
+    <div class="painel-contato">
+        <a class="botao-x">X<a>
+        <table class="tabela-contato">
+            <tr>
+                <td><a href="https://www.behance.net/arthursilveira13" target="_blank"><img src="./images/Behance.svg" alt="Behance"></a></td>
+                <td><a href="www.linkedin.com/in/arthur-silveira-4058542a1" target="_blank"><img src="./images/LinkedIn.svg" alt="LinkedIn"></a></td>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/IsArthurSilveira" target="_blank"><img src="./images/GitHub.svg" alt="GitHub"></a></td>
+                <td><a href="https://wa.me/5581985070220" target="_blank"><img src="./images/WhatsApp2.svg" alt="WhatsApp"></a></td>
+            </tr>
+            <tr>
+                <td><a href="mailto:thursilveiraa@gmail.com"><img src="./images/Gmail.svg" alt="Gmail"></a></td>
+                <td><a href="https://br.pinterest.com/bamisthur/" target="_blank"><img src="./images/Pinterest.svg" alt="Discord"></a></td>
+            </tr>
+        </table>
+        <div class="forms">
+            <p>Formulário para Contato</p>
+        </div>
+    </div>
+    <div class="painel-projetos">
+        <div class="projetos-header">
+            <h1>PROJETOS</h1>
+            <button class="botao-x">X</button>
+        </div>
+        <div class="projetos-lista">
+            <div class="projeto-item">
+                <h2>Junior Designer</h2>
+                <p><strong>CH1C0 no Clima</strong></p>
+                <p>Maio de 2025 - Atual</p>
+                <ul>
+                    <li>Responsável pelo design do projeto</li> 
+                    <li>Ilustrador de Personagem, Designer dos Jogos e Facilitador de Oficinas</li>
+                </ul>
+                <p><a href="#"> Mais detalhes do projeto</a></p>
+            </div>
+            <div class="projeto-item">
+                <h2>Gestor e Design UX / UI</h2>
+                <p><strong>MeMo - Residência Robótica 2025.1</strong></p>
+                <p>Março de 2025 - Junho de 2025</p>
+                <ul>
+                    <li>Responsável pela Gestão do Projeto</li>
+                    <li>Organização do Projeto, Design UX/UI e outras atividades multifuncionais</li>
+                </ul>
+                <p><a href="#">Mais detalhes do projeto</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="painel-habilidades">
+        <div class="habilidades-header">
+            <h1>HABILIDADES</h1>
+        </div>
+        <table class="tabela-habilidades">
+            <tr>
+                <td>Gestão de Projetos</td>
+                <td>
+                    <img src="./images/Afinidade Gestao.svg" alt="Habilidade">
+                </td>
+            </tr>
+            <tr>
+                <td>Design UX/UI</td>
+                <td>
+                    <img src="./images/Afinidade UX.svg" alt="Habilidade">
+                </td>
+            </tr>
+            <tr>
+                <td>Design Gráfico</td>
+                <td>
+                    <img src="./images/Afinidade Design.svg" alt="Habilidade">
+
+                </td>
+            </tr>
+            <tr>
+                <td>Modelagem de Dados</td>
+                <td>
+                    <img src="./images/Finalidade Dados.svg" alt="Habilidade">
+                </td>
+            </tr>
+            <tr>
+                <td>Dev Front-End</td>
+                <td>
+                    <img src="./images/Finalidade Front.svg" alt="Habilidade">
+                </td>
+            </tr>
+            <tr>
+                <td>Dev Back-End</td>
+                <td>
+                    <img src="./images/Finalidade Back.svg" alt="Habilidade">
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="painel-formacao">
+        <div class="formacao-header">
+            <button class="botao-navegacao">&lt;</button>
+            <h1>FORMAÇÃO</h1>
+            <button class="botao-navegacao">&gt;</button>
+        </div>
+        <div class="formacao-lista">
+            <div class="formacao-item">
+                <h2>Tecnólogo em ADS (Atual)</h2>
+                <p><a href="https://faculdadesenacpe.edu.br/graduacao/analise-e-desenvolvimento-de-sistemas">Faculdade Senac PE</a></p>
+            </div>
+            <div class="formacao-item">
+                <h2>Agente de Inovação (2023)</h2>
+                <p><a href="https://sebrae.com.br/sites/PortalSebrae/ufs/pe/sebraeaz/projeto-ninho-educacao-que-transforma-sebrae-pernambuco,974a38c2de151910VgnVCM1000001b00320aRCRD">Ver mais detalhes</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="rodape">
+        <p>Copyright © 2025 Arthur Silveira. Todos os direitos reservados.</p>
+    </div>
 </html>
